@@ -4,9 +4,9 @@ let header = document.getElementById("click");
 const potato = "french fries";
 
 header.addEventListener("mouseover", function () {
-    header.style.color = "blue";
+    header.style.color = "lightgreen";
 });
 
 header.addEventListener("mouseout", function () {
-    header.style.color = "lightgreen";
+    header.style.color = "blue";
 });
